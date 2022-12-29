@@ -35,6 +35,7 @@ export const AboutInfoContainer = styled.div`
 
   h2 {
     font-size: 36px;
+    display: none;
   }
 
   p {
@@ -43,6 +44,10 @@ export const AboutInfoContainer = styled.div`
 
   @media screen and (min-width: 1024px) {
     width: 500px;
+
+    h2 {
+      display: block;
+    }
   }
 `;
 
