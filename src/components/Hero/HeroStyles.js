@@ -29,6 +29,15 @@ export const InfoHeroContainer = styled.div`
   flex-direction: column;
   gap: 16px;
 
+  span {
+    text-align: center;
+    width: 120px;
+    padding: 6px;
+    border-radius: 24px;
+    background-color: rgba(123, 74, 226, 0.1);
+    color: #7b4ae2;
+  }
+
   h2 {
     font-size: 48px;
   }
