@@ -1,5 +1,6 @@
 import { Hero } from "components/Hero";
 import { IconsLinks } from "components/IconsLinks";
+import { Separator } from "components/Separator";
 import GlobalStyle from "theme/globalStyles";
 
 export const Home = () => {
@@ -8,6 +9,7 @@ export const Home = () => {
       <GlobalStyle />
       <IconsLinks />
       <Hero />
+      <Separator />
     </>
   );
 };

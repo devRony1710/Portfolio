@@ -1,12 +1,16 @@
 import HeroImage from "assets/images/HeroImage.svg";
 
 // styles
-import { HeroContainer, InfoHeroContainer } from "./HeroStyles";
+import { HeroContainer, InfoHeroContainer, HeroImg } from "./HeroStyles";
 
 export const Hero = () => {
   return (
     <HeroContainer>
-      <img src={HeroImage} alt="Computer with books illustration" />
+      <HeroImg
+        loading="lazy"
+        src={HeroImage}
+        alt="Computer with books illustration"
+      />
 
       <InfoHeroContainer>
         <span>👋🏻 Saludos</span>
