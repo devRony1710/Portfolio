@@ -9,7 +9,12 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: #090E16;
-        color: #FFFFFF
+        color: #FFFFFF;
+        font-family: 'Varela', sans-serif;
+    };
+
+    h2 {
+        font-family: 'Varela Round', sans-serif;;
     }
 `;
 

@@ -1,3 +1,4 @@
+import { Hero } from "components/Hero";
 import { IconsLinks } from "components/IconsLinks";
 import GlobalStyle from "theme/globalStyles";
 
@@ -6,6 +7,7 @@ export const Home = () => {
     <>
       <GlobalStyle />
       <IconsLinks />
+      <Hero />
     </>
   );
 };
