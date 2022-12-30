@@ -14,6 +14,10 @@ export const CardItemContainer = styled.div`
   p {
     opacity: 50%;
   }
+
+  @media screen and (min-width: 1024px) {
+    width: 400px;
+  }
 `;
 
 export const CardLabelsContainer = styled.div`

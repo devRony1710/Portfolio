@@ -25,4 +25,10 @@ export const ProjectList = styled.div`
   width: 100%;
   overflow: scroll;
   gap: 32px;
+
+  @media screen and (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+  }
 `;
