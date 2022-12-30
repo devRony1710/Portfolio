@@ -1,6 +1,7 @@
 import { About } from "components/About";
 import { Hero } from "components/Hero";
 import { IconsLinks } from "components/IconsLinks";
+import { Projects } from "components/Projects/ index";
 import { Separator } from "components/Separator";
 import GlobalStyle from "theme/globalStyles";
 
@@ -12,6 +13,7 @@ export const Home = () => {
       <Hero />
       <Separator />
       <About />
+      <Projects />
     </>
   );
 };
