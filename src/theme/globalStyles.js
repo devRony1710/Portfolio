@@ -11,6 +11,11 @@ const GlobalStyle = createGlobalStyle`
         background-color: #090E16;
         color: #FFFFFF;
         font-family: 'Varela', sans-serif;
+        max-width: 1660px;
+
+        @media screen and (min-width: 1660px) {
+            margin: 0 auto;
+        }
     };
 
     h2 {
