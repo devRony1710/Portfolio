@@ -27,8 +27,12 @@ export const ProjectCardItem = ({
       </CardLabelsContainer>
 
       <CardLinksContainer>
-        <a href={demoLink}>Demo</a>
-        <a href={linkGithub}>Github</a>
+        <a href={demoLink} target="_blank" rel="noreferrer">
+          Demo
+        </a>
+        <a href={linkGithub} target="_blank" rel="noreferrer">
+          Github
+        </a>
       </CardLinksContainer>
     </CardItemContainer>
   );

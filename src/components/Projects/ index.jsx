@@ -3,6 +3,8 @@ import { ProjectsContainer, ProjectList } from "./ProjectsStyles";
 
 // components
 import { ProjectCardItem } from "./ProjectsCardItem";
+
+// Data
 import { Data } from "Data";
 
 export const Projects = () => {
