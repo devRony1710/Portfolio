@@ -1,5 +1,6 @@
 import { About } from "components/About";
 import { Contact } from "components/Contact";
+import { Footer } from "components/Footer";
 import { Hero } from "components/Hero";
 import { IconsLinks } from "components/IconsLinks";
 import { Projects } from "components/Projects/ index";
@@ -18,6 +19,7 @@ export const Home = () => {
       <Projects />
       <Technologies />
       <Contact />
+      <Footer />
     </>
   );
 };
