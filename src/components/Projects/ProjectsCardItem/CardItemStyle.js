@@ -33,4 +33,8 @@ export const CardLinksContainer = styled.div`
     text-decoration: none;
     color: #ffffff;
   }
+
+  a:hover {
+    color: rgb(123, 74, 226);
+  }
 `;

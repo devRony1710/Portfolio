@@ -5,4 +5,8 @@ export const IconsContainer = styled.div`
   gap: 16px;
   justify-content: center;
   margin-top: 24px;
+
+  a:hover {
+    transform: scale(1.2);
+  }
 `;
