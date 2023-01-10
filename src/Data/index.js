@@ -29,4 +29,13 @@ export const Data = [
     demoLink: "https://abstraer.vercel.app/",
     githubLink: "https://github.com/devRony1710/Abstraer",
   },
+  {
+    name: "Nft Card",
+    description: "Diseño para colección de NFTs",
+    stack1: "HTML",
+    stack2: "CSS",
+    stack3: "Frontend",
+    demoLink: "https://devrony1710.github.io/Nft-Card/",
+    githubLink: "https://github.com/devRony1710/Nft-Card",
+  },
 ];
