@@ -16,9 +16,6 @@ export const IconsLinks = () => {
       <a href={GITHUB_LINK} target="_blank" rel="noreferrer">
         <Github />
       </a>
-      <a href={TWITTER_LINK} target="_blank" rel="noreferrer">
-        <Twitter />
-      </a>
     </IconsContainer>
   );
 };
