@@ -24,7 +24,6 @@ export const Technologies = () => {
         <ReactIcon />
         <SassIcon />
         <TailwindIcon />
-        <TsIcon />
       </TechsContainerList>
     </TechsContainer>
   );
